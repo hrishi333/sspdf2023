@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
+  site_name: 'सांगोला संपदा',
+  title: 'सांगोला संपदा दीपावली विशेषांक 2023',
+  description: 'सांगोला संपदा दीपावली विशेषांक 2023, दर्जेदार कथा, कविता , लेख , व्यंगचित्रे , आणि विविध परिपूर्ण साहित्याने भरलेला दिवाळी अंक ! ',
   locale: 'en',
 };

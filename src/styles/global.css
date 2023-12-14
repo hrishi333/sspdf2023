@@ -3,3 +3,19 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.react-pdf__Page__textContent{
+    display: none !important;
+    height: 0px !important;
+}
+.react-pdf__Page__annotations{
+    display: none !important;
+    height: 0px !important;
+}
+
+.page-transition {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+

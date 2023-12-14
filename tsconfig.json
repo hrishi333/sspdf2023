@@ -35,9 +35,9 @@
     "isolatedModules": true,
     "incremental": true,
 
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["src/*"],
       "@/public/*": ["./public/*"]
     }
   },
