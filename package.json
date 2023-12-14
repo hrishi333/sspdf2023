@@ -9,8 +9,7 @@
     "export": "next export",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next .swc out",
-    "check-types": "tsc --noEmit --pretty",
-    "prepare": "husky install"
+    "check-types": "tsc --noEmit --pretty"
   },
   "dependencies": {
     "@types/react-pdf": "^7.0.0",
