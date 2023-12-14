@@ -8,7 +8,7 @@ import { Logo } from "@/templates/Logo";
 import Link from "next/link";
 import { Background } from "@/background/Background";
 import { auth, provider } from '../config/firebaseConfig';
-import { signInWithPopup, UserCredential, GoogleAuthProvider } from 'firebase/auth';
+import { signInWithPopup, UserCredential } from 'firebase/auth';
 
 import ImageSliders from "../components/ImageSliders";
 
@@ -98,7 +98,7 @@ const HomePage: React.FC = () => {
                     </div>
                     <div>
                         <h1 className="font-bold flex justify-center text-[25px]">{fileNameWithoutExtension}</h1>
-                        <LazyPDFViewer key={refresh} className="w-full flex items-center " scroll="true" pdfUrl={pdfFileUrl} zoom={1.5} />
+                        <LazyPDFViewer key={refresh.toString()}  pdfUrl={pdfFileUrl} />
                     </div>
                     <div className="p-2">
                         <ImageSliders />
