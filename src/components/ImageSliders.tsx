@@ -41,6 +41,7 @@ const ImageSliders: React.FC = () => {
         {images.map((image, index) => (
           <div key={index} className="w-[400px]">
             <img src={image} alt={`Slide ${index}`} style={contentStyle} />
+
           </div>
         ))}
       </Carousel>
